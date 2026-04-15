@@ -1,0 +1,7 @@
+s = "silent"
+s2 = "listn"
+
+if sorted(s) == sorted(s2):
+    print("Angram")
+else:
+    print("Not a anagram")

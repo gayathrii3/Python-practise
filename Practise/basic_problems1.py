@@ -1,3 +1,37 @@
+# Variables and Datatypes
+
+# a = "Gaya"
+# b = 0.89
+# c = 669
+# d = True
+
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(d))
+# -----------------------------------
+
+# Convert String to Integer and Add
+
+# a = "34"
+# b = "1"
+
+# sum = (int(a)+int(b))
+
+# print(sum)
+
+# ----------------------------------
+# Count Vowels in a String
+
+vowels = "Gayathri Reddy"
+count = 0
+
+for v in vowels:
+    if v in "aeiou":
+        count += 1
+print(count ,"vowels")
+
+# -----------------------------------
 # print("Bhak")
 
 # a = int(input("Enter a value:"))
@@ -183,3 +217,4 @@
 #     else:
 #         num[n] = 1
 # print(num)
+
