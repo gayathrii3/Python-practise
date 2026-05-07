@@ -68,11 +68,13 @@
 # -------------------------------------------------------------
 # First Non-Repeated Character
 
-s =  "gayathri"
+# s =  "gayathri"
 
-freq = 1
+# freq = 1
 
-for ch in s:
-    if s.count(ch) == freq:
-        print(ch)
-        break
+# for ch in s:
+#     if s.count(ch) == freq:
+#         print(ch)
+#         break
+
+# --------------------------------------------------------------

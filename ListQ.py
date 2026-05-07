@@ -42,17 +42,28 @@
 # print the largest and smallest number
 
 # list = [3,8,9,23,87,25,16]
-# print(f"largest number is {max(list)} and smallest number is {min(list)}")
+# largest = list[0]
+# smallest = list[0]
+
+# for n in list:
+#     if n > largest:
+#         largest = n
+#     elif n < smallest:
+#         smallest = n
+
+# print(largest, smallest)
 
 #-----------------------------------------------
 # check if a number exist in list
 
+# x = int(input())
 # list = [1,7,15,18,19,20,2]
 # for num in list:
-#     if num == 19:
-#         print(f"{num} exists at index {list.index(num)}")
-#     else:
-#         print(num)
+#     if num == x:
+#         print(f"{x} exists at index {list.index(num)}")
+#         break
+# else:
+#     print(x,"not found")
 
 #------------------------------------------------
 # count the number of times an element appears using dictionary
@@ -61,10 +72,10 @@
 # nums = {}
 
 # for i in list:
-    # if i in nums:
-    #     nums[i] += 1
-    # else:
-    #     nums[i] = 1
+#     if i in nums:
+#         nums[i] += 1
+#     else:
+#         nums[i] = 1
 # print(nums)
 
 #------------------------------------------------
@@ -210,9 +221,16 @@
 
 # Flatten a nested list
 # Example: [[1,2], [3,4], [5]] → [1,2,3,4,5]
-
+# ---------------------------------------------------------------
 # Rotate a list by n positions
 # Example: [1,2,3,4,5] rotate by 2 → [4,5,1,2,3]
+
+# num = [1,2,3,4,5,6]
+# n = 3
+
+# rotate = num[-n:] + num[:-n]
+# print(rotate)
+
         
 
         

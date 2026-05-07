@@ -23,13 +23,15 @@
 # ----------------------------------
 # Count Vowels in a String
 
-vowels = "Gayathri Reddy"
-count = 0
+# vowels = "GayathriReddy"
+# count = 0
 
-for v in vowels:
-    if v in "aeiou":
-        count += 1
-print(count ,"vowels")
+# for v in vowels:
+#     if v in "aeiou":
+#         count += 1
+# print(count ,"vowels")
+
+#-----------------------------------
 
 # -----------------------------------
 # print("Bhak")
