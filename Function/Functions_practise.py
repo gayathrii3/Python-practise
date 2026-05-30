@@ -161,20 +161,21 @@
 # ---------------------------------------------------
 # Check palindrome
 
-def is_palindrome(word):
+# def is_palindrome(word):
 
-    reverse = ""
+#     reverse = ""
 
-    for ch in word:
-        reverse = ch + reverse
+#     for ch in word:
+#         reverse = ch + reverse
 
-    if reverse == word:
-        return "Palindrome"
-    else:
-        return "Not Palindrome"
+#     if reverse == word:
+#         return "Palindrome"
+#     else:
+#         return "Not Palindrome"
 
-print(is_palindrome("MADAM"))
+# print(is_palindrome("MADAM"))
 
+# -------------------------------------------------
 
 
 

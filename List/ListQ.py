@@ -232,5 +232,3 @@
 # print(rotate)
 
         
-
-        
