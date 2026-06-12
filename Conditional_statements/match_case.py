@@ -23,13 +23,13 @@
 
 # -----------------------------------------------------------
 
-# def is_completed(todo):
-#     match todo:
-#         case "Python" | "SQL":
-#             return "Partially completed"
-#         case "REST API" | "DSA":
-#             return "Not completed"
-#         case _:
-#             return "Exceeding limit"
+def is_completed(todo):
+    match todo:
+        case "Python" | "SQL":
+            return "Partially completed"
+        case "REST API" | "DSA":
+            return "Not completed"
+        case _:
+            return "Exceeding limit"
         
-# print(is_completed("DSA"))
+print(is_completed("DSA"))
