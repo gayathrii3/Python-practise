@@ -1,0 +1,4 @@
+If the user enters a non-number → handle ValueError
+If the user enters an index outside the list → handle IndexError.200 years after
+200 years after
+200 years after
