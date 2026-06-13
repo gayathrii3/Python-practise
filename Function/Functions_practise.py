@@ -176,6 +176,19 @@
 # print(is_palindrome("MADAM"))
 
 # -------------------------------------------------
+# Create a function that counts vowels in a string.
+
+def find_vowels(words):
+
+    count = 0
+
+    for word in words:
+        if word in "aeiouAEIOU":
+            count += 1
+
+    return count
+
+print(f"Vowels = {find_vowels("Govind")}")
 
 
 
