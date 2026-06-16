@@ -1,0 +1,14 @@
+[
+    {
+        "book_id": "1",
+        "title": "The Mistake",
+        "author": "Ellen",
+        "available": true
+    },
+    {
+        "book_id": "2",
+        "title": "The Goal",
+        "author": "Ellen",
+        "available": true
+    }
+]

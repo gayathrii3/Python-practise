@@ -19,6 +19,6 @@ pokemon_name = "pikachu"
 pokemon_info = get_pokemon_info(pokemon_name)
 
 if pokemon_info:
-    print(f"Name : {pokemon_info['name']:4}")
-    print(f"ID :{pokemon_info['id']:4}")
-    print(f"Height : {pokemon_info['height']:4}")
+    print(f"Name : {pokemon_info['name']}")
+    print(f"ID :{pokemon_info['id']}")
+    print(f"Height : {pokemon_info['height']}")
